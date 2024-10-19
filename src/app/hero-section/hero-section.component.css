@@ -1,0 +1,35 @@
+.hero-section{
+    background-image: url('../../assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10% 0 10% 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+@media (max-width: 900px){
+
+    .hero-section{
+        height: 70vh;
+    }
+
+
+    h1{
+        font-size: 20px;
+    }
+}
